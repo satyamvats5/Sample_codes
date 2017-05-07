@@ -27,7 +27,7 @@ void gt_data()
 		A[l]=i;
 		l++;
 		if(x<=l){
-			x+=2;
+			x++;
 			A=realloc(A,sizeof(int));
 			printf("\n memory reallocated\n");
 			printf("size of newly allocated space=%lu\n",malloc_usable_size(A));
